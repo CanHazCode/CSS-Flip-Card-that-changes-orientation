@@ -19,6 +19,7 @@
         transform: rotateY(180deg);
     }
 
+
 /* Position the front and back side */
     .flip-card-quote-front, .flip-card-quote-back {
         position: absolute;
@@ -31,10 +32,11 @@
 /* Style the back side - This will put the front and back on seperate sides */
     .flip-card-quote-back {
         font-size: 60px;
+        line-height: 0.7;
         background-color: #fffde9;
         color: #b47816;
         transform: rotateY(180deg);
-        width: 200px;
+        width: 250px;
         height: 300px;
         border: 3px;
         border-style: solid;
